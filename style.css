@@ -321,7 +321,7 @@ hero .media-schedules .icon-1 {
 
 /* ============================ courses ============================ */
 .courses-list .body {
-  padding: 30px 0;
+  padding: 30px 0 154px;
   margin-top: 30px;
 }
 .courses-list .title {
@@ -422,4 +422,204 @@ hero .media-schedules .icon-1 {
   height: 6px;
   border-radius: 50%;
   background: #1ebfc1;
+}
+
+/* ============================ popular ============================ */
+.popular {
+  padding: 30px 0;
+  margin-top: 205px;
+}
+.popular .body {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 862px;
+  height: 131px;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+.popular .body .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popular .body .number {
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.popular .body .title {
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+/* ============================ feedback ============================ */
+.feedback {
+  margin-top: 200px;
+}
+.feedback .body {
+  padding: 34px 0;
+  position: relative;
+}
+.feedback .body .icon {
+  margin-top: 37px;
+  width: 36px;
+  height: 29px;
+}
+.feedback .body .respond {
+  margin-top: 27px;
+  max-width: 419px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 1.5; /* 150% */
+}
+.feedback .body .name {
+  margin-top: 33px;
+  color: #767e7e;
+  font-size: 1.6rem;
+}
+.feedback .body strong {
+  color: #070707;
+  font-weight: 500;
+}
+.feedback .body .name::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 2px;
+  background: #070707;
+  margin-bottom: 4px;
+  margin-right: 5px;
+}
+.feedback .body .feedback-cta {
+  display: flex;
+  margin-top: 52px;
+}
+.feedback .feedback-cta .cta-btn-group {
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #2ac9bf;
+}
+.feedback .feedback-cta img {
+  margin-bottom: 35px;
+}
+
+.feedback .ava-fb {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.feedback .ava-fb-1 {
+  width: 92px;
+  height: 92px;
+  left: 635px;
+  top: 0;
+}
+.feedback .ava-fb-2 {
+  width: 92px;
+  height: 92px;
+  right: 0;
+  left: 1060px;
+  top: 19px;
+}
+.feedback .ava-fb-3 {
+  width: 235px;
+  height: 235px;
+  top: 107px;
+  left: 764px;
+}
+.feedback .ava-fb-4 {
+  top: 258px;
+  left: 491px;
+}
+.feedback .ava-fb-5 {
+  top: 403px;
+  left: 703px;
+}
+.feedback .ava-fb-6 {
+  top: 374px;
+  left: 1060px;
+}
+
+/* ============================ admit ============================ */
+.admit {
+  margin-top: 130px;
+  padding: 76px 135px 88px;
+  background: #def6f5;
+}
+
+.admit .body {
+  display: flex;
+  align-items: center;
+}
+
+.admit .admit-left .desc {
+  margin-top: 18px;
+  margin-right: 410px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+
+/* ============================ footer ============================ */'
+.footer {
+  background-color: #fff;
+}
+
+.footer .row-top {
+  padding: 131px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer .list li {
+  margin-top: 18px;
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.footer .list li:first-child {
+  margin-top: 26px;
+}
+
+.footer li a {
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.footer .list-item5 a {
+  display: flex;
+  align-items: center;
+}
+
+.footer .list .social-icon {
+  margin-right: 9px;
+}
+
+.footer .copyright {
+  margin-top: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  line-height: normal;
 }
